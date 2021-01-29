@@ -49,10 +49,10 @@ GEM
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.4.0)
     mini_i18n (0.8.0)
-    minima (2.5.1)
-      jekyll (>= 3.5, < 5.0)
-      jekyll-feed (~> 0.9)
-      jekyll-seo-tag (~> 2.1)
+    no-style-please (0.1.0)
+      jekyll (~> 4.1)
+      jekyll-feed (~> 0.14)
+      jekyll-seo-tag (~> 2.6)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (4.0.6)
@@ -73,10 +73,9 @@ PLATFORMS
   x86_64-darwin-20
 
 DEPENDENCIES
-  jekyll (~> 4.2.0)
   jekyll-feed (~> 0.12)
   jekyll-timeago
-  minima (~> 2.5)
+  no-style-please
 
 RUBY VERSION
    ruby 2.7.2p137
